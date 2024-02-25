@@ -1,0 +1,19 @@
+{
+  "name": "cookies_session",
+  "version": "1.0.0",
+  "main": "session.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon session.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "uuid": "^9.0.1"
+  },
+  "description": ""
+}
