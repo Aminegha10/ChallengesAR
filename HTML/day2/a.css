@@ -1,0 +1,52 @@
+* {
+  color: white;
+}
+body {
+  background-image: url("../Photos/back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+img,
+video {
+  border-radius: 20px;
+  border: 10px solid white;
+}
+a {
+  color: rgb(28, 239, 222);
+  font-weight: 500;
+  font-size: 25px;
+}
+
+input {
+  border-radius: 20px;
+  background: rgb(115, 192, 255);
+  font-weight: 600;
+}
+input::placeholder {
+  color: white;
+}
+.nav {
+  border: 10px solid white;
+  border-radius: 10px;
+}
+
+div > button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.find:focus {
+  background-color: brown;
+  transform: scale(1.1);
+}
+
+div > button,
+div > select {
+  background-color: rgb(31, 0, 60);
+}
+.nav a:hover::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  border-bottom: 4px solid red;
+}
