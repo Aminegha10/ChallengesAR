@@ -1,0 +1,33 @@
+/* MAIN */
+.desc {
+  text-align: center;
+  margin: 100px 0;
+}
+.fees {
+  display: flex;
+  justify-content: space-between;
+}
+.fees div {
+  padding: 20px 20px 160px 20px;
+  border: 2px solid #7b61ff;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+.fees div h6,
+.fees div h2 {
+    text-align: center;
+}
+.fees li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+.fees button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 70px;
+}
+.fees ul i{
+   color: #7b61ff;
+   margin-right: 10px;
+}

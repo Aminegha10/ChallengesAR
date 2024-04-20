@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+/* Body */
+body {
+  display: grid;
+  row-gap: 20px;
+}
+
+/* BACKGROUND */
+.background {
+  display: grid;
+  background-image: linear-gradient(to top right, #00031c, transparent),
+    url("https://cdn.wallpapersafari.com/57/87/UabElH.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  row-gap: 20px;
+}
+/* HEADER */
+header {
+  display: grid;
+  column-gap: 20px;
+  align-items: center;
+  padding: 20px;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+header .nav_logo {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 80px;
+}
+.logo {
+  font-size: 3em;
+}
+header nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+header li {
+  list-style-type: none;
+  font-size: 20px;
+}
+header a {
+  text-decoration: none;
+}
+header .search input {
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+}
+.search select {
+  background: none;
+  border: none;
+}
+.search .space {
+  margin-right: 10px;
+}
+
+/* HEADER */
+
+button {
+  background: linear-gradient(to top right, #8e2de2, #4a00e0);
+  border-radius: 30px;
+  padding: 15px 31px;
+  border: none;
+}
+
+/* MAIN */
+main {
+  color: white;
+  padding: 20px;
+  display: grid;
+  row-gap: 20px;
+}
+.movie_details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 40px;
+  width: 60%;
+}
+.poster img {
+  width: 280px;
+  border-radius: 20px;
+}
+/* DESCRIPTION */
+.description {
+  color: grey;
+  display: grid;
+  column-gap: 20px; /* Gap between grid columns */
+  grid-template-columns: 1fr 1fr 1fr; /* Three columns with automatic width */
+  grid-template-areas:
+    "logo logo logo"
+    "stars views comments"
+    "date date date"
+    "type type type"
+    "ad ad ad"
+    "download download download"
+    "txt txt txt"
+    "cast cast cast"
+    "cast cast cast"
+    "play play play";
+  row-gap: 20px;
+}
+.description .logo {
+  grid-area: logo;
+}
+.rating {
+  grid-area: stars;
+}
+.views {
+  grid-area: views;
+}
+.comments {
+  grid-area: comments;
+}
+.date {
+  grid-area: date;
+}
+.add {
+  grid-area: ad;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.download {
+  grid-area: download;
+  width: 100%;
+}
+.desc-txt {
+  grid-area: txt;
+}
+.cast {
+  grid-area: cast;
+}
+.play_trailer {
+  grid-area: play;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+/*  buttons */
+.description_button button {
+  background: #80808047;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* .description_button .first_button {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 10px;
+}
+.description_button .download {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+}
+.description i {
+  font-size: 20px;
+  margin-right: 10px;
+} */
+
+.movie_pics {
+  display: grid;
+  grid-template-areas:
+    "img1 img1 img2 img2 img2 img3 img3"
+    "img1 img1 img4 img4 img5 img5 img5";
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img4 {
+  grid-area: img4;
+}
+.img5 {
+  grid-area: img5;
+}
+.movie_pics img {
+  width: 100%;
+  height: 100%;
+}
+/* FOOTER */
+footer {
+  height: 200px;
+  background-color: #00031c;
+}

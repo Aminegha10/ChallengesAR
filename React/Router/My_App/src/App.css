@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header,
+footer {
+  background-color: #0e0b18;
+  color: white;
+  padding: 20px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 30px;
+}
+header ul {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  list-style-type: none;
+}
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+/* Home */
+/* .Home,.login-container{
+  padding: 20px;
+} */
+.Home {
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 50px;
+}
+
+.Login_Registration {
+  display: flex;
+  gap: 10px;
+}
+.posts_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.post_box {
+  background-color: #0e0b18;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: cursive;
+  color: white;
+}
+/* LoginForm */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.login-form {
+  width: 50%;
+  padding: 50px;
+  border: 2px solid black;
+  box-shadow: -4px 4px 18px 0 #000;
+  border-radius: 5px;
+}
+
+.login-form h2 {
+  text-align: center;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+/* MainContent */
+main {
+  background-color: #268191;
+  color: white;
+  padding: 20px;
+}
+
+.wh {
+  color: white;
+}
+
+.addpost {
+  text-align: center;
+  padding: 10px;
+  background-color: aqua;
+}
+
+/* Footer */
+footer .container {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+}
+/* Error */
+.error {
+  background: #eee;
+  color: black;
+  font-size: 30px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & span {
+    font-size: 40px;
+  }
+}

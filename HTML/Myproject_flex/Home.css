@@ -1,0 +1,55 @@
+/* MAIN */
+.background-main {
+  background-image: url("https://pbs.twimg.com/media/FTclHjVXoAAugdR.jpg:large");
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+.backmain {
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  height: 100%;
+  /* position: relative; */
+}
+/* .backmain::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+} */
+.backmain li {
+  display: inline-block;
+  margin: 10px;
+}
+.backmain button {
+  margin-right: 15px;
+}
+.NewR {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.card {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: auto;
+}
+.card::-webkit-scrollbar {
+  width: 0;
+}
+main img {
+  width: 288px;
+  height: 400px;
+  border-radius: 5px;
+}
+/* MAIN */
